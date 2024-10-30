@@ -81,10 +81,25 @@ h2{
 .section_one{
     background-color: #333;
     color: white;
+    text-align: center;
+}
+
+.section_cont{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.section_one_head{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
 }
 
 .section_one_img{
-    color: white;
+    border: 2px solid white;
+    border-radius: 40%;
+    max-width: 45px;
 }
 
 .section_one_heading{
@@ -97,6 +112,68 @@ h2{
 }
 
 .section_one_text{
+    font-size: 1.3rem;
+    margin: 1.3rem 0;
+}
+
+.section_one_btn{
+    background-color: #b90415;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.section_one_text2{
+    color: #f4f4f4;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.section_two{
+    background-color: #f4f4f4;
+    color: #333333;
+    text-align: center;
+}
+
+.section_two_heading{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.section_two_text{
+    font-size: 1.3rem;
+    margin: 1.3rem 0;
+}
+
+.section_two_btn{
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: .6rem;
+    color: white;
+    background-color: #103063;
+    width: 25%;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.section_three{
+    background-image: url(img/section-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.section_three_heading{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.section_three_text{
     font-size: 1.3rem;
     margin: 1.3rem 0;
 }
